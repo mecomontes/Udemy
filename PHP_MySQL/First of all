@@ -1,0 +1,19 @@
+local server: install XAMPP control panel
+
+In order to launch XAMPP through your Ubuntu Terminal, enter the following command as root:
+
+$ sudo /opt/lampp/lampp start
+
+In order to install Net Tools, run the following command as root:
+
+$ sudo apt install net-tools
+
+Verify Installation
+
+After you have installed XAMPP on your Ubuntu system, it is good practice to verify the installation. To do so, enter the following URL in your FireFox browser:
+
+http://localhost
+
+You can also verify the installation of phpMyAdmin in a similar manner by entering the following URL in your browser:
+
+http://localhost/phpmyadmin

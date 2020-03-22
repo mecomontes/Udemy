@@ -1,0 +1,57 @@
+en terminal:
+
+ir a carpeta del proyecto:
+
+cd '/home/meco/Desktop/DESARROLLO/CursoUdemy/React JS' 
+
+crear proyecto:
+
+npx create-react-app mi-primera-app
+
+Moverse a la carpeta del proyecto y levantarlo:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd mi-primera-app nombredelaapp
+  yarn start
+
+abrir visual studio > cmd + p > escribir: >Code > Shell install code command
+
+en terminal: code .
+
+en el archivo json cambiair "start" por "dev"
+
+1). Componente siempre empieza con letra mayúscula:
+Loading.js o Loading.jsx
+
+2). Siempre tiene la importación de React:
+import React from "react";
+
+3). Siempre va a exportar y renderizar algo:
+export default function Loading() {
+	return (
+		<div>
+			<p>Hola Mundo</p>
+		</div>
+	)
+}
+
+agregar "export default" al inicio de function App en el archivo App.js
+
+
+yarn dev
+
+
